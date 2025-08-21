@@ -14,6 +14,8 @@ part of open_a_i_schema;
 /// reasoning effort can result in faster responses and fewer tokens used
 /// on reasoning in a response.
 enum ReasoningEffort {
+  @JsonValue('none')
+  none,
   @JsonValue('minimal')
   minimal,
   @JsonValue('low')
